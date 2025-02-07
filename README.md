@@ -1,1 +1,1 @@
-# mywebsite
+# Creation of my website, based on the tutorials mentioned in the project "quarto_workshop"

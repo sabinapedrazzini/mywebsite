@@ -1,0 +1,24 @@
+---
+title: "Sabina Pedrazzini"
+toc: false
+---
+
+---
+about:
+  template: jolla
+  id: block1
+  image: images/2Sabina.png
+---
+
+::: {#block1}
+:::
+
+<!-- note: to create the block above (which "calls" the yaml block):1) go on "Source" mode2) :::{#bock1}:::-->
+
+## Welcome on my website :)
+
+text 1
+
+### heading 3
+
+ffjfjf

@@ -1,0 +1,39 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  page-navigation: true
+  #favicon: images/flower.png
+#navbar = on top of the page
+  navbar:
+    #logo: images/2Sabina.png
+    left:
+        
+      - href: myresearch/myresearch.qmd  
+        text: My research
+        
+      - href: myknitting/myknitting.qmd
+        text: My knitting projects
+        
+      - href: mywebsite/mywebsite.qmd
+        text: My website
+      
+    right:
+      - icon: github
+        href: https://github.com/sabinapedrazzini
+      - icon: linkedin
+        href: https://ch.linkedin.com/in/sabina-pedrazzini-543051169
+      - icon: envelope
+        href: "mailto:sabina.pedrazzini@gmail.com"
+
+  page-footer: 
+    left: |
+      <span class="faux-block">&#169; 2025 Sabina Pedrazzini CC BY-SA 4.0</span>
+    center: |
+      <span class="faux-block"><a href="https://github.com/sabinapedrazzini/mywebsite">Code to create the website</a></span>
+    
+
+format:
+  html:
+    theme: styles.scss
